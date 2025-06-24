@@ -2,7 +2,7 @@
   "name": "@stanstack/pg-migrate",
   "private": false,
   "author": "Henry Stanford",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "generate:kysely": "kanel",
     "knip": "bunx knip",
@@ -18,5 +18,23 @@
     "dotenv": "^16.5.0",
     "kanel": "^3.12.0",
     "kanel-kysely": "^0.7.1"
-  }
+  },
+  "description": "A simple, scriptable PostgreSQL migration and schema management toolkit for Node.js/TypeScript projects. This package provides CLI tools to initialize your database directory, manage migrations, and generate type-safe database code using [apgdiff](https://github.com/lovelysystems/apgdiff), [pgvector](https://github.com/pgvector/pgvector), [Kysely](https://kysely.dev) and [Kanel](https://github.com/kristiandupont/kanel).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstanford/pg-migrate.git"
+  },
+  "keywords": [
+    "schema",
+    "postgres",
+    "postgresql",
+    "migrate",
+    "migrations"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hstanford/pg-migrate/issues"
+  },
+  "homepage": "https://github.com/hstanford/pg-migrate#readme"
 }
