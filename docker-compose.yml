@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: pg-migrate-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: pg-migrate
+      POSTGRES_PASSWORD: pg-migrate
+      POSTGRES_DB: pg-migrate
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

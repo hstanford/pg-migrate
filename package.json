@@ -1,0 +1,22 @@
+{
+  "name": "@stanstack/pg-migrate",
+  "private": false,
+  "author": "Henry Stanford",
+  "version": "0.0.1",
+  "scripts": {
+    "generate:kysely": "kanel",
+    "knip": "bunx knip",
+    "generate": "./generate.sh",
+    "init": "./init.sh",
+    "migrate": "./migrate.sh"
+  },
+  "dependencies": {
+    "pg": "^8.14.1",
+    "kysely": "^0.28.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "kanel": "^3.12.0",
+    "kanel-kysely": "^0.7.1"
+  }
+}

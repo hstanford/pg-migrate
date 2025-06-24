@@ -1,0 +1,2 @@
+-- Main schema file for your database
+-- Add CREATE TABLE statements and other schema objects here
